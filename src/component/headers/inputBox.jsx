@@ -3,7 +3,7 @@ import { Search } from "lucide-react";
 export default function InputBox() {
     return (
         <>
-            <div className="container-custom flex items-center text-slate-300 mt-5
+            <div className=" flex items-center text-slate-300 mt-5
              h-10 bg-slate-700 border-3 border-gray-900 rounded-md">
                 <select className="bg-slate-700 font-Roboto  border-r border-gray-500 h-8" name="" id="">
                     <option value="">Tv showe</option>

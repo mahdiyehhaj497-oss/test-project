@@ -1,7 +1,7 @@
 export default function Header() {
     return (
       <>
-        <div className="container-custom px-6 h-14 bg-blue-950/40 font-Roboto Condensed text-slate-300 flex justify-center items-center rounded-b-2xl ">
+        <div className=" px-6 h-14 bg-blue-950/40 font-Roboto Condensed text-slate-300 flex justify-center items-center rounded-b-2xl ">
           <div className=" flex ">
             <div className="flex mr-3">
               <h1 className="text-5xl text-rose-600 m-1 blur-[0.5px] ">

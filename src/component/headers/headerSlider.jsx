@@ -31,7 +31,7 @@ export default function HeaderSlider() {
               <img src="src/assets/photo/film.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="border-1 border-slate-700" src="src/assets/photo/film.jpg" alt="" />
+              <img  src="src/assets/photo/film.jpg" alt="" />
             </SwiperSlide>
             ...
           </Swiper>

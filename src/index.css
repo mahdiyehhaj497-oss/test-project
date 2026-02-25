@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+
+  
+   @layer components{
+    .container-custom{
+      max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+      padding-left: 1rem;
+       padding-right:1rem;
+       height: 36px;
+    }
+   }
+
+   
+
+   @layer base {
+@font-face{
+    font-family: "Roboto Condensed";
+    src:url("src/assets/Roboto_Condensed/RobotoCondensed-Italic-VariableFont_wght.ttf")format("ttf"),
+    url("src/assets/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf")format("ttf");
+    font-weight:200;
+    font-style: normal;
+   }
+   }
+
+   @layer utilities{
+    .font-Roboto{
+      font-family: "Roboto Condensed";
+    }
+   }
